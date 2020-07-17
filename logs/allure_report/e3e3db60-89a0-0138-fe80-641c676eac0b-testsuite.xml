@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591392160881" stop="1591392196702">
+  <name>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo AS</name>
+  <title>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo AS</title>
+  <test-cases>
+    <test-case start="1591392160883" stop="1591392196697" status="passed">
+      <name>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Autoridade Superior</name>
+      <title>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Autoridade Superior</title>
+      <steps>
+        <step start="1591392162390" stop="1591392162390" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'filho.laaf' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'filho.laaf' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591392162390" stop="1591392169411" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591392169411" stop="1591392182653" status="passed">
+          <name>E acesso a funcionalidade de Aprova&#xE7;&#xE3;o de Solicita&#xE7;&#xE3;o de Atendimento pela AS,</name>
+          <title>E acesso a funcionalidade de Aprova&#xE7;&#xE3;o de Solicita&#xE7;&#xE3;o de Atendimento pela AS,</title>
+          <attachments/>
+        </step>
+        <step start="1591392182653" stop="1591392185889" status="passed">
+          <name>E visualizo a sat gerada e Pendente de Aprova&#xE7;&#xE3;o pelo AS "numero_sat_gerada.text",</name>
+          <title>E visualizo a sat gerada e Pendente de Aprova&#xE7;&#xE3;o pelo AS "numero_sat_gerada.text",</title>
+          <attachments/>
+        </step>
+        <step start="1591392185889" stop="1591392189411" status="passed">
+          <name>E atendo a solicitacao, informando a unidade responsavel pelo atendimento 'DPF/PCA/SP'</name>
+          <title>E atendo a solicitacao, informando a unidade responsavel pelo atendimento 'DPF/PCA/SP'</title>
+          <attachments/>
+        </step>
+        <step start="1591392189411" stop="1591392195356" status="passed">
+          <name>Entao visualizo a seguinte mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</name>
+          <title>Entao visualizo a seguinte mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="06d3a94b5d11642fcf5a5e13290360c08a50a4fc64785578672e5432058a9e9a-attachment.png" title="Clique aqui para ver o print da tela" size="98082" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Atender Solicita&#xE7;&#xE3;o de Atendimento pelo AS"/>
+        <label name="story" value="Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Autoridade Superior"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

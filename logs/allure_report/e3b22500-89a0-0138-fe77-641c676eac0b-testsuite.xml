@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591392068135" stop="1591392094115">
+  <name>Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum - Terceirizado</name>
+  <title>Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum - Terceirizado</title>
+  <test-cases>
+    <test-case start="1591392068137" stop="1591392094108" status="passed">
+      <name>Autorizar Aloca&#xE7;&#xE3;o por meio da Diretor Geral.</name>
+      <title>Autorizar Aloca&#xE7;&#xE3;o por meio da Diretor Geral.</title>
+      <steps>
+        <step start="1591392069407" stop="1591392069407" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'valeixo.mlv' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'valeixo.mlv' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591392069408" stop="1591392076412" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591392076412" stop="1591392085069" status="passed">
+          <name>E acesso a funcionalidade de Aprova&#xE7;&#xE3;o de Solicita&#xE7;&#xE3;o de Aloca&#xE7;&#xE3;o pelo Diretor Geral,</name>
+          <title>E acesso a funcionalidade de Aprova&#xE7;&#xE3;o de Solicita&#xE7;&#xE3;o de Aloca&#xE7;&#xE3;o pelo Diretor Geral,</title>
+          <attachments/>
+        </step>
+        <step start="1591392085069" stop="1591392088687" status="passed">
+          <name>E visualizo a aloca&#xE7;&#xE3;o gerada e Pendente de Aprova&#xE7;&#xE3;o Diretor Geral "numero_alocacao_gerada.text",</name>
+          <title>E visualizo a aloca&#xE7;&#xE3;o gerada e Pendente de Aprova&#xE7;&#xE3;o Diretor Geral "numero_alocacao_gerada.text",</title>
+          <attachments/>
+        </step>
+        <step start="1591392088687" stop="1591392093234" status="passed">
+          <name>Ent&#xE3;o realizo a 'Aprova&#xE7;&#xE3;o pelo Diretor Geral' e justifico 'Justificativa de Aprova&#xE7;&#xE3;o'.</name>
+          <title>Ent&#xE3;o realizo a 'Aprova&#xE7;&#xE3;o pelo Diretor Geral' e justifico 'Justificativa de Aprova&#xE7;&#xE3;o'.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="39d560f5500f34a36b30159897133f8c5645069319c802ae0e2183152329d519-attachment.png" title="Clique aqui para ver o print da tela" size="45701" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum - Terceirizado"/>
+        <label name="story" value="Autorizar Aloca&#xE7;&#xE3;o por meio da Diretor Geral."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591389604529" stop="1591389667229">
+  <name>Solicitar Viagem Urgente.</name>
+  <title>Solicitar Viagem Urgente.</title>
+  <test-cases>
+    <test-case start="1591389604532" stop="1591389667224" status="failed">
+      <name>Enviar solicita&#xE7;&#xE3;o de viagem urgente.</name>
+      <title>Enviar solicita&#xE7;&#xE3;o de viagem urgente.</title>
+      <failure>
+        <message>expected to find text "Registro salvo com sucesso." in "PF / Mobiliza&#xE7;&#xE3;o\nALINE MUNHOZ ABDALA\nPRESTADOR DE SERVI&#xC7;OS\nUnidade\nDPF/PCA/SP\nSe&#xE7;&#xE3;o Navega&#xE7;&#xE3;o\nIn&#xED;cio\nCadastros Gerais\nOM / OS\nIncluir\nConsultar\nAnexos para SCDP\nSolicitar Aut. Viagem Urgente\nIncluir\nConsultar\nRM / RS\nValida&#xE7;&#xE3;o\nAloca&#xE7;&#xE3;o\nRelat&#xF3;rios\nLogado agora na Unidade DPF/PCA/SP\nTrocar unidade\nConsultar Solicita&#xE7;&#xE3;o de Viagem Urgente\nSolicita&#xE7;&#xE3;o de autoriza&#xE7;&#xE3;o de Viagem Urgente\nTodas\nPendente\nAutorizada\nEm elabora&#xE7;&#xE3;o\nSolicita&#xE7;&#xE3;o Recusada\nCancelada\nN&#xB0; Solicita&#xE7;&#xE3;o:\nN&#xB0;Ordem:\nUnidade:\nDELEGACIA DE POLICIA FEDERAL EM PIRACICABA - DPF/PCA/SP\nLocalizar Solicita&#xE7;&#xE3;o de Viagem Urgente por Integrante\nServidor\nColaborador Eventual\nServidor:\nPesquisar Limpar\n\nN&#xBA; Solicita&#xE7;&#xE3;o N&#xBA; Ordem Unidade de Emiss&#xE3;o In&#xED;cio T&#xE9;rmino Destino Status Opera&#xE7;&#xE3;o\n148/2020 2.067/2020 DPF/PCA/SP 05/06/2020 11/06/2020 Bras&#xED;lia/DF Pendente de Autoriza&#xE7;&#xE3;o AS\nMostrando 1 - 10 de 1 resultados(s)\nPrimeira\n&lt;&lt;\n1\n&gt;&gt;\n&#xDA;ltima\nVoltar\n\n\nVers&#xE3;o: 0.17.13, data: 05/06/2020 13:15"</message>
+        <stack-trace>./features/step_definitions/11 - Viagem Urgente/000 - Solicitar Viagem Urgente.rb:30:in `"visualizo a mensagem de sucesso {string}"'&#xD;
+features/specs/08 - Fluxo de Viagem Urgente/004_solicitar_viagem_urgente.feature:20:in `Ent&#xE3;o visualizo a mensagem de sucesso 'Registro salvo com sucesso.''</stack-trace>
+      </failure>
+      <steps>
+        <step start="1591389614193" stop="1591389614193" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591389614193" stop="1591389614193" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591389614193" stop="1591389614193" status="passed">
+          <name>Dado que acesse a funcionalidade de solicitar viagem urgente,</name>
+          <title>Dado que acesse a funcionalidade de solicitar viagem urgente,</title>
+          <attachments/>
+        </step>
+        <step start="1591389614193" stop="1591389614632" status="passed">
+          <name>E informar a ordem aprovada com viagem viagem urgente 'numero_requisicao_aprovacao_ad_e_as.text',</name>
+          <title>E informar a ordem aprovada com viagem viagem urgente 'numero_requisicao_aprovacao_ad_e_as.text',</title>
+          <attachments/>
+        </step>
+        <step start="1591389614632" stop="1591389617012" status="passed">
+          <name>E informar a justificativa de intenpestividade 'justificativa de intenpestividade - automa&#xE7;&#xE3;o',</name>
+          <title>E informar a justificativa de intenpestividade 'justificativa de intenpestividade - automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389617012" stop="1591389617756" status="passed">
+          <name>E informar a justificativa de relevancia da missao 'justificativa de relevancia da missao - automa&#xE7;&#xE3;o',</name>
+          <title>E informar a justificativa de relevancia da missao 'justificativa de relevancia da missao - automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389617756" stop="1591389622246" status="passed">
+          <name>E escolher a autoridade designada 'MAURICIO LEITE VALEIXO', Possivel Adiar Viagem 'sim',</name>
+          <title>E escolher a autoridade designada 'MAURICIO LEITE VALEIXO', Possivel Adiar Viagem 'sim',</title>
+          <attachments/>
+        </step>
+        <step start="1591389622246" stop="1591389636136" status="passed">
+          <name>E enviar a solicita&#xE7;&#xE3;o.</name>
+          <title>E enviar a solicita&#xE7;&#xE3;o.</title>
+          <attachments/>
+        </step>
+        <step start="1591389636136" stop="1591389666360" status="failed">
+          <name>Ent&#xE3;o visualizo a mensagem de sucesso 'Registro salvo com sucesso.'</name>
+          <title>Ent&#xE3;o visualizo a mensagem de sucesso 'Registro salvo com sucesso.'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="887effdf8a4b422ddec571a15a1e8d1ffea8350d2fc468143b91b5343fc51fa6-attachment.png" title="Clique aqui para ver o print da tela" size="73354" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Solicitar Viagem Urgente."/>
+        <label name="story" value="Enviar solicita&#xE7;&#xE3;o de viagem urgente."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591387736540" stop="1591387784209">
+  <name>Autorizar OMP/OS pela autoridade autoridade Superior ap&#xF3;s a Autoriza&#xE7;&#xE3;o da Autoridade Determinante.</name>
+  <title>Autorizar OMP/OS pela autoridade autoridade Superior ap&#xF3;s a Autoriza&#xE7;&#xE3;o da Autoridade Determinante.</title>
+  <test-cases>
+    <test-case start="1591387736541" stop="1591387784207" status="passed">
+      <name>Autorizar Ordem pela autoridade Superior.</name>
+      <title>Autorizar Ordem pela autoridade Superior.</title>
+      <steps>
+        <step start="1591387737769" stop="1591387737770" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'filho.laaf' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'filho.laaf' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591387737770" stop="1591387744791" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591387744791" stop="1591387767673" status="passed">
+          <name>Quando filtro por Analisadas pelo Assessor 'n&#xE3;o', visualizo a ordem 'numero_requisicao_aprovacao_ad_e_as.text',</name>
+          <title>Quando filtro por Analisadas pelo Assessor 'n&#xE3;o', visualizo a ordem 'numero_requisicao_aprovacao_ad_e_as.text',</title>
+          <attachments/>
+        </step>
+        <step start="1591387767673" stop="1591387769792" status="passed">
+          <name>Ent&#xE3;o realizo a a&#xE7;&#xE3;o de 'Autorizar'.</name>
+          <title>Ent&#xE3;o realizo a a&#xE7;&#xE3;o de 'Autorizar'.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="4c68bf798363e583cb04e8e8c50161a84e846b67f16c9cb48c83819520400aac-attachment.png" title="Clique aqui para ver o print da tela" size="40998" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Autorizar OMP/OS pela autoridade autoridade Superior ap&#xF3;s a Autoriza&#xE7;&#xE3;o da Autoridade Determinante."/>
+        <label name="story" value="Autorizar Ordem pela autoridade Superior."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

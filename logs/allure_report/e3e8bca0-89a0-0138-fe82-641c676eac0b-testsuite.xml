@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591392196703" stop="1591392278854">
+  <name>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento</name>
+  <title>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento</title>
+  <test-cases>
+    <test-case start="1591392196704" stop="1591392278482" status="passed">
+      <name>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento</name>
+      <title>Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento</title>
+      <steps>
+        <step start="1591392197883" stop="1591392197884" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'costa.rcc' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'costa.rcc' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591392197884" stop="1591392204893" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591392204893" stop="1591392210648" status="passed">
+          <name>E visualizo a sat gerada e Pendente de Atendimento "numero_sat_gerada.text",</name>
+          <title>E visualizo a sat gerada e Pendente de Atendimento "numero_sat_gerada.text",</title>
+          <attachments/>
+        </step>
+        <step start="1591392210649" stop="1591392219034" status="passed">
+          <name>E seleciono gerar ordem</name>
+          <title>E seleciono gerar ordem</title>
+          <attachments/>
+        </step>
+        <step start="1591392219034" stop="1591392263611" status="passed">
+          <name>E informo o cargo, e seleciono os integrantes da ordem, e depois incluo a ordem tipo M</name>
+          <title>E informo o cargo, e seleciono os integrantes da ordem, e depois incluo a ordem tipo M</title>
+          <attachments/>
+        </step>
+        <step start="1591392263612" stop="1591392273068" status="passed">
+          <name>Entao visualizo a seguinte mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</name>
+          <title>Entao visualizo a seguinte mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="95d85d88bfe45c578753edb81258a5838dff353c656f68fe3b2f5453b7e90b36-attachment.png" title="Clique aqui para ver o print da tela" size="59948" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento"/>
+        <label name="story" value="Atender Solicita&#xE7;&#xE3;o de Atendimento pelo Responsavel pelo atendimento"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

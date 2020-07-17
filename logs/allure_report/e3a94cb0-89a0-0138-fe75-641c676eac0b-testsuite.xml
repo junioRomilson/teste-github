@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591389703091" stop="1591389796026">
+  <name>Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum.</name>
+  <title>Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum.</title>
+  <test-cases>
+    <test-case start="1591389703093" stop="1591389796022" status="passed">
+      <name>Inclus&#xE3;o de Aloca&#xE7;&#xE3;o.</name>
+      <title>Inclus&#xE3;o de Aloca&#xE7;&#xE3;o.</title>
+      <steps>
+        <step start="1591389732386" stop="1591389732386" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'altair.acn' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'altair.acn' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591389732386" stop="1591389732386" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591389732386" stop="1591389732386" status="passed">
+          <name>Ent&#xE3;o acesso a funcionalidade de Inclus&#xE3;o de Aloca&#xE7;&#xE3;o</name>
+          <title>Ent&#xE3;o acesso a funcionalidade de Inclus&#xE3;o de Aloca&#xE7;&#xE3;o</title>
+          <attachments/>
+        </step>
+        <step start="1591389732386" stop="1591389732387" status="passed">
+          <name>Quando realizo as defini&#xE7;&#xF5;es seguintes: Tipo de Solicita&#xE7;&#xE3;o 'Mobiliza&#xE7;&#xE3;o', N&#xFA;mero de Inqu&#xE9;rito Policial '1232019', Tipo de Servi&#xE7;o 'Comum',</name>
+          <title>Quando realizo as defini&#xE7;&#xF5;es seguintes: Tipo de Solicita&#xE7;&#xE3;o 'Mobiliza&#xE7;&#xE3;o', N&#xFA;mero de Inqu&#xE9;rito Policial '1232019', Tipo de Servi&#xE7;o 'Comum',</title>
+          <attachments/>
+        </step>
+        <step start="1591389732387" stop="1591389733892" status="passed">
+          <name>E Tipo de Opera&#xE7;&#xE3;o 'BASE GISE/SP - OPERA&#xC7;&#xC3;O TESTE', Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF',</name>
+          <title>E Tipo de Opera&#xE7;&#xE3;o 'BASE GISE/SP - OPERA&#xC7;&#xC3;O TESTE', Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF',</title>
+          <attachments/>
+        </step>
+        <step start="1591389733892" stop="1591389735832" status="passed">
+          <name>E Data Inicio '11/11/2019' com a data do dia atual por default, Data T&#xE9;rmino '', Dura&#xE7;&#xE3;o em dias '4',</name>
+          <title>E Data Inicio '11/11/2019' com a data do dia atual por default, Data T&#xE9;rmino '', Dura&#xE7;&#xE3;o em dias '4',</title>
+          <attachments/>
+        </step>
+        <step start="1591389735832" stop="1591389737597" status="passed">
+          <name>E &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA', Tipo da Miss&#xE3;o 'Apoio Administrativo',</name>
+          <title>E &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA', Tipo da Miss&#xE3;o 'Apoio Administrativo',</title>
+          <attachments/>
+        </step>
+        <step start="1591389737597" stop="1591389739514" status="passed">
+          <name>E Destino 'Nacional', UF 'Amazonas' e Cidade 'Manaus' ou Pa&#xED;s 'Cuba' e Cidade 'HAVANA',</name>
+          <title>E Destino 'Nacional', UF 'Amazonas' e Cidade 'Manaus' ou Pa&#xED;s 'Cuba' e Cidade 'HAVANA',</title>
+          <attachments/>
+        </step>
+        <step start="1591389739514" stop="1591389741195" status="passed">
+          <name>E Custo das Di&#xE1;rias 'Ser&#xE1; pago por R' como 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF' e o Ressarcimento como 'POLICIA FEDERAL - PF',</name>
+          <title>E Custo das Di&#xE1;rias 'Ser&#xE1; pago por R' como 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF' e o Ressarcimento como 'POLICIA FEDERAL - PF',</title>
+          <attachments/>
+        </step>
+        <step start="1591389741195" stop="1591389742933" status="passed">
+          <name>E Custo das Passagens 'Ser&#xE1; pago por R' como 'COORDENACAO DE ADMINISTRACAO - COAD/DLOG/PF' e o Ressarcimento como 'POLICIA FEDERAL - PF',</name>
+          <title>E Custo das Passagens 'Ser&#xE1; pago por R' como 'COORDENACAO DE ADMINISTRACAO - COAD/DLOG/PF' e o Ressarcimento como 'POLICIA FEDERAL - PF',</title>
+          <attachments/>
+        </step>
+        <step start="1591389742933" stop="1591389755514" status="passed">
+          <name>E ap&#xF3;s realizar a defini&#xE7;&#xE3;o dos dados da solicita&#xE7;&#xE3;o, realizo o preenchimento dos seguintes campos:</name>
+          <title>E ap&#xF3;s realizar a defini&#xE7;&#xE3;o dos dados da solicita&#xE7;&#xE3;o, realizo o preenchimento dos seguintes campos:</title>
+          <attachments/>
+        </step>
+        <step start="1591389755514" stop="1591389756037" status="passed">
+          <name>E acesso a Aba - Definir de Conting&#xEA;nte.</name>
+          <title>E acesso a Aba - Definir de Conting&#xEA;nte.</title>
+          <attachments/>
+        </step>
+        <step start="1591389756037" stop="1591389763327" status="passed">
+          <name>E Realizo as defini&#xE7;&#xF5;es seguintes: Tipo de Contingente 'Por Cargo', Cargos: 'AGENTE DE POLICIA FEDERAL', 'DELEGADO DE POLICIA FEDERAL',</name>
+          <title>E Realizo as defini&#xE7;&#xF5;es seguintes: Tipo de Contingente 'Por Cargo', Cargos: 'AGENTE DE POLICIA FEDERAL', 'DELEGADO DE POLICIA FEDERAL',</title>
+          <attachments/>
+        </step>
+        <step start="1591389763328" stop="1591389763955" status="passed">
+          <name>E Efetivo Pr&#xF3;prio '3', Efetivo Solicitado '6' com a op&#xE7;&#xE3;o de aceita&#xE7;&#xE3;o de alternativa 'marcada' para o primeiro cargo,</name>
+          <title>E Efetivo Pr&#xF3;prio '3', Efetivo Solicitado '6' com a op&#xE7;&#xE3;o de aceita&#xE7;&#xE3;o de alternativa 'marcada' para o primeiro cargo,</title>
+          <attachments/>
+        </step>
+        <step start="1591389763955" stop="1591389764167" status="passed">
+          <name>E Efetivo Pr&#xF3;prio '3', Efetivo Solicitado '6' com a op&#xE7;&#xE3;o de aceita&#xE7;&#xE3;o de alternativa 'desmarcada' para o segundo cargo,</name>
+          <title>E Efetivo Pr&#xF3;prio '3', Efetivo Solicitado '6' com a op&#xE7;&#xE3;o de aceita&#xE7;&#xE3;o de alternativa 'desmarcada' para o segundo cargo,</title>
+          <attachments/>
+        </step>
+        <step start="1591389764167" stop="1591389768875" status="passed">
+          <name>E Perfil Necess&#xE1;rio 'Perfil Necess&#xE1;rio - Automa&#xE7;&#xE3;o', Autoridade 'JOSE OTACILIO DELLA PACE ALVES', Informa&#xE7;&#xF5;es 'Informa&#xE7;&#xF5;es - Automa&#xE7;&#xE3;o',</name>
+          <title>E Perfil Necess&#xE1;rio 'Perfil Necess&#xE1;rio - Automa&#xE7;&#xE3;o', Autoridade 'JOSE OTACILIO DELLA PACE ALVES', Informa&#xE7;&#xF5;es 'Informa&#xE7;&#xF5;es - Automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389768875" stop="1591389771386" status="passed">
+          <name>E Necessidade de viaturas de outras Unidades 'Sim', Justificativa de Transporte 'Justificativa de Transporte - Automa&#xE7;&#xE3;o',</name>
+          <title>E Necessidade de viaturas de outras Unidades 'Sim', Justificativa de Transporte 'Justificativa de Transporte - Automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389771386" stop="1591389772370" status="passed">
+          <name>E Hor&#xE1;rio de Apresenta&#xE7;&#xE3;o '07:00',</name>
+          <title>E Hor&#xE1;rio de Apresenta&#xE7;&#xE3;o '07:00',</title>
+          <attachments/>
+        </step>
+        <step start="1591389772370" stop="1591389773501" status="passed">
+          <name>E Mais de cinco integrantes para o mesmo evento? 'Sim', Possivel Adiar Missao Servico? 'Sim',</name>
+          <title>E Mais de cinco integrantes para o mesmo evento? 'Sim', Possivel Adiar Missao Servico? 'Sim',</title>
+          <attachments/>
+        </step>
+        <step start="1591389773501" stop="1591389775876" status="passed">
+          <name>E Justifico caso haja a necessidade de mobiliza&#xE7;&#xE3;o de servidores de outras unidades 'Necessidade de mobiliza&#xE7;&#xE3;o de servidores - Automa&#xE7;&#xE3;o',</name>
+          <title>E Justifico caso haja a necessidade de mobiliza&#xE7;&#xE3;o de servidores de outras unidades 'Necessidade de mobiliza&#xE7;&#xE3;o de servidores - Automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389775877" stop="1591389778431" status="passed">
+          <name>E Justifico caso a mobiliza&#xE7;&#xE3;o no prazo menor que quinze dias 'Mobiliza&#xE7;&#xE3;o no prazo menor que 15 dias - Automa&#xE7;&#xE3;o',</name>
+          <title>E Justifico caso a mobiliza&#xE7;&#xE3;o no prazo menor que quinze dias 'Mobiliza&#xE7;&#xE3;o no prazo menor que 15 dias - Automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389778431" stop="1591389781340" status="passed">
+          <name>E Justifico caso necessite de justificativa para passagem a&#xE9;rea no prazo menor que dez dias 'Passagem a&#xE9;rea no prazo menor que 10 dias - Automa&#xE7;&#xE3;o',</name>
+          <title>E Justifico caso necessite de justificativa para passagem a&#xE9;rea no prazo menor que dez dias 'Passagem a&#xE9;rea no prazo menor que 10 dias - Automa&#xE7;&#xE3;o',</title>
+          <attachments/>
+        </step>
+        <step start="1591389781340" stop="1591389786495" status="passed">
+          <name>Ent&#xE3;o Realizo o envio da aloca&#xE7;&#xE3;o e sou direcionado para a tela de Consulta de Aloca&#xE7;&#xE3;o.</name>
+          <title>Ent&#xE3;o Realizo o envio da aloca&#xE7;&#xE3;o e sou direcionado para a tela de Consulta de Aloca&#xE7;&#xE3;o.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="8bb0c76a74a3d5015f31625525ea80f499f4d83a37a158ee20e6aadd6477ed93-attachment.txt" title="multiline_arg" size="901" type="text/plain"/>
+        <attachment source="60503fdfde2b30c3c42c52bb927960a112e8e3038a17cea793ca25415a9913fe-attachment.png" title="Clique aqui para ver o print da tela" size="43894" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Incluir Aloca&#xE7;&#xE3;o - Miss&#xE3;o Comum."/>
+        <label name="story" value="Inclus&#xE3;o de Aloca&#xE7;&#xE3;o."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

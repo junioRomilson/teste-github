@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591386798189" stop="1591386911185">
+  <name>Manter Ordem de Miss&#xE3;o Policial e Ordem de Servi&#xE7;o - incluir</name>
+  <title>Manter Ordem de Miss&#xE3;o Policial e Ordem de Servi&#xE7;o - incluir</title>
+  <test-cases>
+    <test-case start="1591386798192" stop="1591386911183" status="failed">
+      <name>Incluir Ordem Local - Sem Custo</name>
+      <title>Incluir Ordem Local - Sem Custo</title>
+      <failure>
+        <message>Unable to find css ".form-vertical &gt; div:nth-child(6) &gt; div:nth-child(1) &gt; cp-static-text:nth-child(1) &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; span:nth-child(2)"</message>
+        <stack-trace>./features/support/pages/Incluir_omp_os_page.rb:202:in `definir_integrantes'&#xD;
+./features/step_definitions/2 - Ordem/002_incluir_ordem_autorizada_ad_step.rb:77:in `"vejo a seguinte mensagem {string}"'&#xD;
+features/specs/03 - Fluxo de Ordem -  Local/000_incluir_ordem_autorizada_ad.feature:29:in `Entao vejo a seguinte mensagem 'Registro salvo com sucesso.''</stack-trace>
+      </failure>
+      <steps>
+        <step start="1591386830563" stop="1591386830563" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'renato.rcs' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'renato.rcs' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591386830563" stop="1591386830563" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591386830563" stop="1591386830563" status="passed">
+          <name>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigilosa', Tipo de Destino 'Local', N&#xFA;mero do Inqu&#xE9;rito '01572019',</name>
+          <title>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigilosa', Tipo de Destino 'Local', N&#xFA;mero do Inqu&#xE9;rito '01572019',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830563" stop="1591386830564" status="passed">
+          <name>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</name>
+          <title>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830564" stop="1591386830565" status="passed">
+          <name>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '1', UF 'Acre', Cidade 'Rio Branco',</name>
+          <title>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '1', UF 'Acre', Cidade 'Rio Branco',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830565" stop="1591386830566" status="passed">
+          <name>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Descri&#xE7;&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Restri&#xE7;&#xF5;es - AUT',</name>
+          <title>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Descri&#xE7;&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Restri&#xE7;&#xF5;es - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830567" stop="1591386830567" status="passed">
+          <name>E informa&#xE7;&#xF5;es referente Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Tipo de Transporte 'Terrestre', Subtipo de Transporte 'PF', Observa&#xE7;&#xE3;o  'Observa&#xE7;&#xF5;es - AUT',</name>
+          <title>E informa&#xE7;&#xF5;es referente Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Tipo de Transporte 'Terrestre', Subtipo de Transporte 'PF', Observa&#xE7;&#xE3;o  'Observa&#xE7;&#xF5;es - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830568" stop="1591386830568" status="passed">
+          <name>E Autoridade Determinante 'ANA TELMA RIBEIRO SILVA', dados em refer&#xEA;ncia a Equipamento: Armamento 'Armamaento - AUT', Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xF5;es - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT',</name>
+          <title>E Autoridade Determinante 'ANA TELMA RIBEIRO SILVA', dados em refer&#xEA;ncia a Equipamento: Armamento 'Armamaento - AUT', Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xF5;es - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830569" stop="1591386830570" status="passed">
+          <name>E Outros 'Outros - AUT', anexar arquivo 'n&#xE3;o', descri&#xE7;&#xE3;o do arquivo 'Anexar Arquivo - AUT', Definir Integrantes 'WARLEI DIAS RIBEIRO',</name>
+          <title>E Outros 'Outros - AUT', anexar arquivo 'n&#xE3;o', descri&#xE7;&#xE3;o do arquivo 'Anexar Arquivo - AUT', Definir Integrantes 'WARLEI DIAS RIBEIRO',</title>
+          <attachments/>
+        </step>
+        <step start="1591386830570" stop="1591386899586" status="failed">
+          <name>Entao vejo a seguinte mensagem 'Registro salvo com sucesso.'</name>
+          <title>Entao vejo a seguinte mensagem 'Registro salvo com sucesso.'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="3846b3ac797f7acefbaba64873a45839a0b944314e9957943c74d008918286e5-attachment.png" title="Clique aqui para ver o print da tela" size="47173" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Manter Ordem de Miss&#xE3;o Policial e Ordem de Servi&#xE7;o - incluir"/>
+        <label name="story" value="Incluir Ordem Local - Sem Custo"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

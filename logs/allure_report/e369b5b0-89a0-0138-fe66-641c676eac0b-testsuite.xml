@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591388617966" stop="1591388730259">
+  <name>Inclus&#xE3;o de Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o - Sigilosa e de Interesse da Unidade Central.</name>
+  <title>Inclus&#xE3;o de Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o - Sigilosa e de Interesse da Unidade Central.</title>
+  <test-cases>
+    <test-case start="1591388617969" stop="1591388730257" status="passed">
+      <name>Ordem de Mobilizacao ou Servico Sigilosa e de Interesse da Unidade Central.</name>
+      <title>Ordem de Mobilizacao ou Servico Sigilosa e de Interesse da Unidade Central.</title>
+      <steps>
+        <step start="1591388626345" stop="1591388626345" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'fabiana.fpe' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'fabiana.fpe' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591388626346" stop="1591388626346" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591388626346" stop="1591388626346" status="passed">
+          <name>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigiloso', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</name>
+          <title>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigiloso', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626346" stop="1591388626347" status="passed">
+          <name>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</name>
+          <title>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626348" stop="1591388626349" status="passed">
+          <name>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '2', UF 'Distrito Federal', Cidade 'Bras&#xED;lia',</name>
+          <title>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '2', UF 'Distrito Federal', Cidade 'Bras&#xED;lia',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626349" stop="1591388626350" status="passed">
+          <name>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</name>
+          <title>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626350" stop="1591388626351" status="passed">
+          <name>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'Terrestre',</name>
+          <title>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'Terrestre',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626351" stop="1591388626353" status="passed">
+          <name>E Subtipo Transporte 'PF', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Autoridade 'DANIEL VIANNA OTTONI DE SIQUEIRA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</name>
+          <title>E Subtipo Transporte 'PF', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Autoridade 'DANIEL VIANNA OTTONI DE SIQUEIRA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626353" stop="1591388626354" status="passed">
+          <name>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</name>
+          <title>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626355" stop="1591388626363" status="passed">
+          <name>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</name>
+          <title>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626363" stop="1591388626364" status="passed">
+          <name>E Interesse 'Unidade Central', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</name>
+          <title>E Interesse 'Unidade Central', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</title>
+          <attachments/>
+        </step>
+        <step start="1591388626364" stop="1591388729380" status="passed">
+          <name>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</name>
+          <title>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="28d0d0137dd817e4c37a19d9bf1933b5bf72195e8b2449358ef4434c3104b2b2-attachment.png" title="Clique aqui para ver o print da tela" size="89705" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Inclus&#xE3;o de Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o - Sigilosa e de Interesse da Unidade Central."/>
+        <label name="story" value="Ordem de Mobilizacao ou Servico Sigilosa e de Interesse da Unidade Central."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

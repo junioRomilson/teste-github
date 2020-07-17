@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591389332494" stop="1591389465341">
+  <name>Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Viagem Urgente.</name>
+  <title>Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Viagem Urgente.</title>
+  <test-cases>
+    <test-case start="1591389332496" stop="1591389465338" status="passed">
+      <name>Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o com solicita&#xE7;&#xE3;o de viagem urgente.</name>
+      <title>Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o com solicita&#xE7;&#xE3;o de viagem urgente.</title>
+      <steps>
+        <step start="1591389340713" stop="1591389340713" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591389340713" stop="1591389340713" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591389340713" stop="1591389340713" status="passed">
+          <name>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Comum', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</name>
+          <title>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Comum', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340713" stop="1591389340714" status="passed">
+          <name>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</name>
+          <title>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340714" stop="1591389340715" status="passed">
+          <name>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '7', UF 'Distrito', Cidade 'Bras&#xED;lia',</name>
+          <title>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '7', UF 'Distrito', Cidade 'Bras&#xED;lia',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340716" stop="1591389340717" status="passed">
+          <name>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</name>
+          <title>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340717" stop="1591389340718" status="passed">
+          <name>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'A&#xE9;reo',</name>
+          <title>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'A&#xE9;reo',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340718" stop="1591389340720" status="passed">
+          <name>E Subtipo Transporte 'Comercial', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Unidade Gestora 'unidade gestora', Entidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem o ressarcimento',</name>
+          <title>E Subtipo Transporte 'Comercial', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Unidade Gestora 'unidade gestora', Entidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem o ressarcimento',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340720" stop="1591389340722" status="passed">
+          <name>E Autoridade Determinante 'RODRIGO DE CAMPOS COSTA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</name>
+          <title>E Autoridade Determinante 'RODRIGO DE CAMPOS COSTA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340722" stop="1591389340723" status="passed">
+          <name>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</name>
+          <title>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340723" stop="1591389340724" status="passed">
+          <name>E defino a data para "solicitar viagem urgente" com prazo superior a "15" dias,</name>
+          <title>E defino a data para "solicitar viagem urgente" com prazo superior a "15" dias,</title>
+          <attachments/>
+        </step>
+        <step start="1591389340724" stop="1591389340728" status="passed">
+          <name>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</name>
+          <title>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340729" stop="1591389340730" status="passed">
+          <name>E Interesse 'Unidade Central', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</name>
+          <title>E Interesse 'Unidade Central', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</title>
+          <attachments/>
+        </step>
+        <step start="1591389340730" stop="1591389464345" status="passed">
+          <name>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</name>
+          <title>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="58d0dd5d716dbc27818a8cba94c246abade482f499907eeb2fe0a12ee4abc07b-attachment.png" title="Clique aqui para ver o print da tela" size="35879" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Viagem Urgente."/>
+        <label name="story" value="Ordem de Mobiliza&#xE7;&#xE3;o ou Servi&#xE7;o com solicita&#xE7;&#xE3;o de viagem urgente."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

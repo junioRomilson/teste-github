@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591388081803" stop="1591388167079">
+  <name>Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Limite de Dias Continuos.</name>
+  <title>Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Limite de Dias Continuos.</title>
+  <test-cases>
+    <test-case start="1591388081805" stop="1591388167076" status="failed">
+      <name>Ordem de Mobilizacao ou Servico com limite de dias continuos.</name>
+      <title>Ordem de Mobilizacao ou Servico com limite de dias continuos.</title>
+      <failure>
+        <message>Unable to find css "#btn1 &gt; span:nth-child(1)"</message>
+        <stack-trace>./features/support/pages/formulario_estrutura.rb:406:in `buscando_servidor'&#xD;
+./features/support/pages/formulario_estrutura.rb:418:in `incluir_servidor'&#xD;
+./features/support/pages/Incluir_omp_os_page.rb:206:in `block in definir_integrantes'&#xD;
+./features/support/pages/Incluir_omp_os_page.rb:205:in `each'&#xD;
+./features/support/pages/Incluir_omp_os_page.rb:205:in `definir_integrantes'&#xD;
+./features/step_definitions/2 - Ordem/006_incluir_ordem_aprovada_ad_as_dg_step.rb:16:in `"eu visualizo a mensagem de sucesso: {string}."'&#xD;
+features/specs/07 - RN1.13 - Encaminhar OM e OS para o DG/02 - Fluxo de Ordem - Ultrapassar o Limite de Dias Continuos/000_incluir_ordem_limite_dias_continuos.feature:30:in `Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1591388089995" stop="1591388089995" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'fabiana.fpe' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'fabiana.fpe' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591388089995" stop="1591388089995" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591388089995" stop="1591388089995" status="passed">
+          <name>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Comum', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</name>
+          <title>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Comum', Tipo de Destino 'Interestadual', N&#xFA;mero do Inqu&#xE9;rito '01572019',</title>
+          <attachments/>
+        </step>
+        <step start="1591388089995" stop="1591388089997" status="passed">
+          <name>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</name>
+          <title>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</title>
+          <attachments/>
+        </step>
+        <step start="1591388089998" stop="1591388089999" status="passed">
+          <name>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '11', UF 'Distrito Federal', Cidade 'Bras&#xED;lia',</name>
+          <title>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '11', UF 'Distrito Federal', Cidade 'Bras&#xED;lia',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090000" stop="1591388090001" status="passed">
+          <name>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</name>
+          <title>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Miss&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Dados - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090001" stop="1591388090002" status="passed">
+          <name>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'Terrestre',</name>
+          <title>E Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Unidade Gestora 'unidades gestoras', Unidade 'POLICIA FEDERAL - PF', Ressarcimento 'sem ressarcimento', Tipo de Transporte 'Terrestre',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090002" stop="1591388090003" status="passed">
+          <name>E Subtipo Transporte 'PF', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Autoridade 'DANIEL VIANNA OTTONI DE SIQUEIRA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</name>
+          <title>E Subtipo Transporte 'PF', Observa&#xE7;&#xE3;o 'Observa&#xE7;&#xE3;o - AUT', Autoridade 'DANIEL VIANNA OTTONI DE SIQUEIRA', Armamento 'Armamento - AUT', Cod. Centro de custo '70324', Centro de Custo 'Custo',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090003" stop="1591388090004" status="passed">
+          <name>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</name>
+          <title>E Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xE3;o - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT', Outros 'Outros - AUT', Anexar Arquivo 'n&#xE3;o', Descri&#xE7;&#xE3;o do Arquivo 'Anexo - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090004" stop="1591388090009" status="passed">
+          <name>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</name>
+          <title>E Definir Integrantes "integrante1", Chefe de Equipe 'sim', Nome Respons&#xE1;vel 'Integrante_respons&#xE1;vel',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090009" stop="1591388090010" status="passed">
+          <name>E Interesse 'Local', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</name>
+          <title>E Interesse 'Local', Unidade Interessada - Fixo, Data - Fixa, Hor&#xE1;rio '0800', Mais de Cinco Integrantes 'n&#xE3;o', Possivel Adiar Viagem 'sim',</title>
+          <attachments/>
+        </step>
+        <step start="1591388090010" stop="1591388090011" status="passed">
+          <name>E Justifico a necessidade de Deslocamento do Servidor para outra Unidade em um Periodo Superior ao definido 'Justificativa - Ultrapassar o Limite de Dias Continuos - Automa&#xE7;&#xE3;o.'</name>
+          <title>E Justifico a necessidade de Deslocamento do Servidor para outra Unidade em um Periodo Superior ao definido 'Justificativa - Ultrapassar o Limite de Dias Continuos - Automa&#xE7;&#xE3;o.'</title>
+          <attachments/>
+        </step>
+        <step start="1591388090011" stop="1591388166057" status="failed">
+          <name>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</name>
+          <title>Ent&#xE3;o eu visualizo a mensagem de sucesso: 'Registro salvo com sucesso.'.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="5da40de9b9a1edc8ff8e3de0785bcd78bd7c78384f733d69cabd5287c9750c03-attachment.png" title="Clique aqui para ver o print da tela" size="48643" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Inclus&#xE3;o de Ordem de Mobilizacao ou Servico - Limite de Dias Continuos."/>
+        <label name="story" value="Ordem de Mobilizacao ou Servico com limite de dias continuos."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

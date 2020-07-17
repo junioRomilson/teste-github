@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591387682297" stop="1591387736539">
+  <name>Autorizar Ordem de Miss&#xE3;o ou Servi&#xE7;o pela Autoridade Determinante.</name>
+  <title>Autorizar Ordem de Miss&#xE3;o ou Servi&#xE7;o pela Autoridade Determinante.</title>
+  <test-cases>
+    <test-case start="1591387682299" stop="1591387736538" status="passed">
+      <name>Autorizar Ordem pela autoridade Determinante.</name>
+      <title>Autorizar Ordem pela autoridade Determinante.</title>
+      <steps>
+        <step start="1591387683564" stop="1591387683565" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'costa.rcc' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'costa.rcc' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591387683565" stop="1591387690584" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591387690584" stop="1591387690586" status="passed">
+          <name>Quando visualizo a ordem 'numero_requisicao_aprovacao_ad_e_as.text',</name>
+          <title>Quando visualizo a ordem 'numero_requisicao_aprovacao_ad_e_as.text',</title>
+          <attachments/>
+        </step>
+        <step start="1591387690586" stop="1591387732212" status="passed">
+          <name>E justifico a autoriza&#xE7;&#xE3;o 'Justificativa Autorizacao AD - Automa&#xE7;&#xE3;o' por meio da Autoridade Determinante,</name>
+          <title>E justifico a autoriza&#xE7;&#xE3;o 'Justificativa Autorizacao AD - Automa&#xE7;&#xE3;o' por meio da Autoridade Determinante,</title>
+          <attachments/>
+        </step>
+        <step start="1591387732212" stop="1591387735814" status="passed">
+          <name>Entao vejo a mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</name>
+          <title>Entao vejo a mensagem 'Opera&#xE7;&#xE3;o realizada com sucesso!'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="299b4405dd61553a33ae7845582db81e5c0a35470f39244df2d800c4fb9c7843-attachment.png" title="Clique aqui para ver o print da tela" size="67879" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Autorizar Ordem de Miss&#xE3;o ou Servi&#xE7;o pela Autoridade Determinante."/>
+        <label name="story" value="Autorizar Ordem pela autoridade Determinante."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

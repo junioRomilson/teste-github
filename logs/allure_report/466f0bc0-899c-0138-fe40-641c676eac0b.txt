@@ -1,0 +1,10 @@
+
+  |     Local_Apresentacao          |     Local de Apresentação - Automação         |
+  |     Descricao                   |     Descrição - Automação                     |
+  |     Dados_Conhecidos_Restricoes |     Dados Conhecidos / Restrições - Automação |
+  |     Recomendacoes               |     Recomendações - Automação                 |
+  |     Codigo_Siorg                |     65512                                     |
+  |     Centro_de_Custo             |     Centro de Custo - Automação               |
+  |     Telecomunicacao             |     Telecomunicação - Automação               |
+  |     Vestuario                   |     Vestuário - Automação                     |
+  |     Outros                      |     Outros - Automação                        |

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591392094115" stop="1591392106538">
+  <name>Escolher Analista Respons&#xE1;vel</name>
+  <title>Escolher Analista Respons&#xE1;vel</title>
+  <test-cases>
+    <test-case start="1591392094117" stop="1591392106528" status="passed">
+      <name>De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a escolha do Analista Responsavel</name>
+      <title>De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a escolha do Analista Responsavel</title>
+      <steps>
+        <step start="1591392095301" stop="1591392095301" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'eduardoprimo.eps' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'eduardoprimo.eps' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591392095302" stop="1591392102313" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591392102314" stop="1591392102726" status="passed">
+          <name>E acesso a funcionalidade de Mobilizar Contigente "Mobiliza&#xE7;&#xE3;o",</name>
+          <title>E acesso a funcionalidade de Mobilizar Contigente "Mobiliza&#xE7;&#xE3;o",</title>
+          <attachments/>
+        </step>
+        <step start="1591392102727" stop="1591392104227" status="passed">
+          <name>E seleciono o analista responsavel da alocacao "numero_alocacao_gerada.text",</name>
+          <title>E seleciono o analista responsavel da alocacao "numero_alocacao_gerada.text",</title>
+          <attachments/>
+        </step>
+        <step start="1591392104227" stop="1591392105476" status="passed">
+          <name>Entao visualizo a seguinte mensagem 'Registro salvo com sucesso.'</name>
+          <title>Entao visualizo a seguinte mensagem 'Registro salvo com sucesso.'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="bef05cccb3170b18e5cd1b394e3c4432d757dd3834f5db064e47ecbc316a3469-attachment.png" title="Clique aqui para ver o print da tela" size="88314" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Escolher Analista Respons&#xE1;vel"/>
+        <label name="story" value="De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a escolha do Analista Responsavel"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

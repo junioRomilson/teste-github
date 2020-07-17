@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591392106538" stop="1591392160881">
+  <name>Mobiliza Contigente Pelo SEMOB</name>
+  <title>Mobiliza Contigente Pelo SEMOB</title>
+  <test-cases>
+    <test-case start="1591392106541" stop="1591392160876" status="passed">
+      <name>De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a Mobiliza&#xE7;&#xE3;o de Contigente.</name>
+      <title>De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a Mobiliza&#xE7;&#xE3;o de Contigente.</title>
+      <steps>
+        <step start="1591392115107" stop="1591392115107" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'souza.rso' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'souza.rso' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591392115107" stop="1591392115107" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591392115107" stop="1591392115107" status="passed">
+          <name>E acesso a funcionalidade de Mobilizar Contigente "Mobiliza&#xE7;&#xE3;o",</name>
+          <title>E acesso a funcionalidade de Mobilizar Contigente "Mobiliza&#xE7;&#xE3;o",</title>
+          <attachments/>
+        </step>
+        <step start="1591392115107" stop="1591392119412" status="passed">
+          <name>E visualizo a aloca&#xE7;&#xE3;o gerada e Pendente de Recrutamento pelo SEMOB "numero_alocacao_gerada.text",</name>
+          <title>E visualizo a aloca&#xE7;&#xE3;o gerada e Pendente de Recrutamento pelo SEMOB "numero_alocacao_gerada.text",</title>
+          <attachments/>
+        </step>
+        <step start="1591392119412" stop="1591392145324" status="passed">
+          <name>E realizo a distribui&#xE7;&#xE3;o da quantidade de contigente</name>
+          <title>E realizo a distribui&#xE7;&#xE3;o da quantidade de contigente</title>
+          <attachments/>
+        </step>
+        <step start="1591392145325" stop="1591392160169" status="passed">
+          <name>Entao visualizo as SATs geradas</name>
+          <title>Entao visualizo as SATs geradas</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="0fc3db626957893bd06ea7e37abbdf861e8f4ff1c30ea358ef177d0804b35034-attachment.png" title="Clique aqui para ver o print da tela" size="64758" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Mobiliza Contigente Pelo SEMOB"/>
+        <label name="story" value="De acordo com a aloca&#xE7;&#xE3;o aprovada pelo DG, realizo a Mobiliza&#xE7;&#xE3;o de Contigente."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

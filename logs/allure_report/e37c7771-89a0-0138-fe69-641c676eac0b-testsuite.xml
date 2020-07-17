@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591389308162" stop="1591389332494">
+  <name>Valida&#xE7;&#xE3;o de Ordem Aprovada - Deslocamento Sigiloso Local</name>
+  <title>Valida&#xE7;&#xE3;o de Ordem Aprovada - Deslocamento Sigiloso Local</title>
+  <test-cases>
+    <test-case start="1591389308163" stop="1591389332491" status="passed">
+      <name>Validar a Aprova&#xE7;&#xE3;o da Ordem de Deslocamento Sigiloso Local pelo AS.</name>
+      <title>Validar a Aprova&#xE7;&#xE3;o da Ordem de Deslocamento Sigiloso Local pelo AS.</title>
+      <steps>
+        <step start="1591389329943" stop="1591389329943" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'marcio.mno' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'marcio.mno' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591389329943" stop="1591389329943" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591389329943" stop="1591389329943" status="passed">
+          <name>Quando realizo a consulta referente &#xFA;ltima ordem aprovada 'numero_requisicao_aprovacao_ad_e_as.text'</name>
+          <title>Quando realizo a consulta referente &#xFA;ltima ordem aprovada 'numero_requisicao_aprovacao_ad_e_as.text'</title>
+          <attachments/>
+        </step>
+        <step start="1591389329944" stop="1591389331643" status="passed">
+          <name>Ent&#xE3;o verifico a ordem foi aprovada pelo AS.</name>
+          <title>Ent&#xE3;o verifico a ordem foi aprovada pelo AS.</title>
+          <attachments/>
+        </step>
+        <step start="1591389331643" stop="1591389331645" status="passed">
+          <name>E verifico que o fluxo de deslocamento internacional, foi conclu&#xED;do com sucesso.</name>
+          <title>E verifico que o fluxo de deslocamento internacional, foi conclu&#xED;do com sucesso.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="329f2bad2b9c0e00f8c61854b938e3abf42d5d3529555afabc7bc761c64439a0-attachment.png" title="Clique aqui para ver o print da tela" size="82257" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Valida&#xE7;&#xE3;o de Ordem Aprovada - Deslocamento Sigiloso Local"/>
+        <label name="story" value="Validar a Aprova&#xE7;&#xE3;o da Ordem de Deslocamento Sigiloso Local pelo AS."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,1 @@
+Revertendo alterações para estrutura básica.

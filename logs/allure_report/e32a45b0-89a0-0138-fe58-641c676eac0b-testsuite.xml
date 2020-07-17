@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591389563802" stop="1591389604529">
+  <name>Autorizar OMP/OS pelo DG.</name>
+  <title>Autorizar OMP/OS pelo DG.</title>
+  <test-cases>
+    <test-case start="1591389563803" stop="1591389604524" status="passed">
+      <name>Realizar aprova&#xE7;&#xE3;o da ordem por meio do Diretor Geral</name>
+      <title>Realizar aprova&#xE7;&#xE3;o da ordem por meio do Diretor Geral</title>
+      <steps>
+        <step start="1591389598176" stop="1591389598176" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'valeixo.mlv' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'valeixo.mlv' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591389598176" stop="1591389598176" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591389598176" stop="1591389598176" status="passed">
+          <name>Quando eu visualizo a ordem j&#xE1; aprovada pelo AD e AS 'numero_requisicao_aprovacao_ad_e_as.text',</name>
+          <title>Quando eu visualizo a ordem j&#xE1; aprovada pelo AD e AS 'numero_requisicao_aprovacao_ad_e_as.text',</title>
+          <attachments/>
+        </step>
+        <step start="1591389598176" stop="1591389600129" status="passed">
+          <name>Ent&#xE3;o realizo a a&#xE7;&#xE3;o de 'Autorizar'.</name>
+          <title>Ent&#xE3;o realizo a a&#xE7;&#xE3;o de 'Autorizar'.</title>
+          <attachments/>
+        </step>
+        <step start="1591389600129" stop="1591389600131" status="passed">
+          <name>E verifico que o fluxo de mais de dez pessoas deslocadas, foi conclu&#xED;do com sucesso.</name>
+          <title>E verifico que o fluxo de mais de dez pessoas deslocadas, foi conclu&#xED;do com sucesso.</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="a9a60ab89ecb0e6b91c2fd7ca98254e77252013ab3aa68b9a440f56da4fcebdc-attachment.png" title="Clique aqui para ver o print da tela" size="40593" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Autorizar OMP/OS pelo DG."/>
+        <label name="story" value="Realizar aprova&#xE7;&#xE3;o da ordem por meio do Diretor Geral"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>

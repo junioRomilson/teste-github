@@ -1,0 +1,9 @@
+cucumber -t@Fluxo_Sistema_Completo
+cucumber -t@fluxo_aprovar_oms_assessor_terceirizado
+cucumber -t@Fluxo_desmembrar_ordem_fluxo_completo
+cucumber -t@desmembrar_ordem_fluxo_completo_terceirizado
+cucumber -t@prorrogar_ordem_local_aprovar_ad
+cucumber -t@prorrogar_ordem_local_terceirizado_aprovar_ad
+cucumber -t@fluxo_de_ordem_e_relatorio_local_terceirizado
+cucumber -t@fluxo_recusar_ordem_e_relatorio_local_completo
+cucumber -t@Fluxo_atender_sat_responsavel_atendimento

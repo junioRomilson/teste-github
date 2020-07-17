@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1591386995842" stop="1591387067637">
+  <name>Manter Ordem de Mobiliza&#xE7;&#xE3;o e Ordem de Servi&#xE7;o - Incluir - Terceirizado.</name>
+  <title>Manter Ordem de Mobiliza&#xE7;&#xE3;o e Ordem de Servi&#xE7;o - Incluir - Terceirizado.</title>
+  <test-cases>
+    <test-case start="1591386995844" stop="1591387067636" status="passed">
+      <name>Incluir Ordem Local Terceirizada - Sem Custo</name>
+      <title>Incluir Ordem Local Terceirizada - Sem Custo</title>
+      <steps>
+        <step start="1591387004614" stop="1591387004614" status="passed">
+          <name>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</name>
+          <title>Dado que estou logado no sistema com o usu&#xE1;rio 'alineabdala.ama' e senha 'ctidpf'</title>
+          <attachments/>
+        </step>
+        <step start="1591387004614" stop="1591387004614" status="passed">
+          <name>E seleciono a unidade de exercicio</name>
+          <title>E seleciono a unidade de exercicio</title>
+          <attachments/>
+        </step>
+        <step start="1591387004614" stop="1591387004614" status="passed">
+          <name>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigilosa', Tipo de Destino 'Local', N&#xFA;mero do Inqu&#xE9;rito '01572019',</name>
+          <title>Quando eu realizo as seguintes defini&#xE7;&#xF5;es de Tipo de Ordem 'Miss&#xE3;o Policial', Miss&#xE3;o 'Sigilosa', Tipo de Destino 'Local', N&#xFA;mero do Inqu&#xE9;rito '01572019',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004614" stop="1591387004615" status="passed">
+          <name>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</name>
+          <title>E Unidade do Inqu&#xE9;rito Policial 'ACADEMIA NACIONAL DE POLICIA - ANP/DGP/PF', &#xC1;rea de Atua&#xE7;&#xE3;o 'ADMINISTRA&#xC7;&#xC3;O E LOG&#xCD;STICA',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004615" stop="1591387004616" status="passed">
+          <name>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '1', UF 'S&#xE3;o Paulo', Cidade 'Altair',</name>
+          <title>E Tipo de Miss&#xE3;o 'Apoio Administrativo', Data In&#xED;cio '', Dura&#xE7;&#xE3;o em Dias '1', UF 'S&#xE3;o Paulo', Cidade 'Altair',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004616" stop="1591387004617" status="passed">
+          <name>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Descri&#xE7;&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Restri&#xE7;&#xF5;es - AUT',</name>
+          <title>E Local de Apresenta&#xE7;&#xE3;o 'Local - AUT', Miss&#xE3;o 'Descri&#xE7;&#xE3;o - AUT', &#xD3;rg&#xE3;os Parceiros 'n&#xE3;o', Dados Conhecidos - Restri&#xE7;&#xF5;es 'Restri&#xE7;&#xF5;es - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004617" stop="1591387004618" status="passed">
+          <name>E informa&#xE7;&#xF5;es referente Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Tipo de Transporte 'Terrestre', Subtipo de Transporte 'PF', Observa&#xE7;&#xE3;o  'Observa&#xE7;&#xF5;es - AUT',</name>
+          <title>E informa&#xE7;&#xF5;es referente Recomenda&#xE7;&#xF5;es 'Recomenda&#xE7;&#xF5;es - AUT', Tipo de Transporte 'Terrestre', Subtipo de Transporte 'PF', Observa&#xE7;&#xE3;o  'Observa&#xE7;&#xF5;es - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004618" stop="1591387004619" status="passed">
+          <name>E Autoridade Determinante 'RODRIGO DE CAMPOS COSTA', dados em refer&#xEA;ncia a Equipamento: Armamento 'Armamaento - AUT', Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xF5;es - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT',</name>
+          <title>E Autoridade Determinante 'RODRIGO DE CAMPOS COSTA', dados em refer&#xEA;ncia a Equipamento: Armamento 'Armamaento - AUT', Telecomunica&#xE7;&#xE3;o 'Telecomunica&#xE7;&#xF5;es - AUT', Vestu&#xE1;rio 'Vestu&#xE1;rio - AUT',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004619" stop="1591387004620" status="passed">
+          <name>E Outros 'Outros - AUT', anexar arquivo 'n&#xE3;o', descri&#xE7;&#xE3;o do arquivo 'Anexar Arquivo - AUT', Definir Integrantes 'CARLOS ALBERTO ARANTES ALVES',</name>
+          <title>E Outros 'Outros - AUT', anexar arquivo 'n&#xE3;o', descri&#xE7;&#xE3;o do arquivo 'Anexar Arquivo - AUT', Definir Integrantes 'CARLOS ALBERTO ARANTES ALVES',</title>
+          <attachments/>
+        </step>
+        <step start="1591387004620" stop="1591387066774" status="passed">
+          <name>Entao vejo a seguinte mensagem 'Registro salvo com sucesso.'</name>
+          <title>Entao vejo a seguinte mensagem 'Registro salvo com sucesso.'</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments>
+        <attachment source="851204bcec224d71f949da535a1b939af261ae39722126be016fcb4d750563fb-attachment.png" title="Clique aqui para ver o print da tela" size="71614" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="22190640"/>
+        <label name="host" value="STFBSBC027941-L"/>
+        <label name="feature" value="Manter Ordem de Mobiliza&#xE7;&#xE3;o e Ordem de Servi&#xE7;o - Incluir - Terceirizado."/>
+        <label name="story" value="Incluir Ordem Local Terceirizada - Sem Custo"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="22190640"/>
+    <label name="host" value="STFBSBC027941-L"/>
+  </labels>
+</ns2:test-suite>
